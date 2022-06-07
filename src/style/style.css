@@ -1,0 +1,62 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+html,
+body {
+  background-color: linear-gradient(to bottom right, #f0f4ff, #a5b6ee);
+}
+
+/*버튼 on*/
+.btn-start-on {
+  display: flex;
+  width: 112px;
+  background-color: #5180ff;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.btn-img {
+  margin: 16px 6px 16px 0;
+}
+
+.btn-txt {
+  margin: 16px 0;
+  color: #ffffff;
+  font-family: 'Pretendard';
+}
+
+/*정지버튼 on*/
+.btn-stop-on {
+  display: flex;
+  width: 112px;
+  background-color: #15c2b8;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+/*리셋버튼 on*/
+.btn-reset-on {
+  display: flex;
+  width: 112px;
+  background-color: #fb7099;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+/* .ir {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  line-height: 0;
+  font-size: 1px;
+  color: transparent;
+} */
+
+.title-app {
+  position: absolute;
+  top: 72px;
+  width: 100%;
+  background-image: url('../img/Group.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
